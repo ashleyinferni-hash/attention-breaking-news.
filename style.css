@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header h1 {
+    color: darkred;
+    border-bottom: 2px solid darkred;
+}
+
+.warning {
+    font-style: italic;
+    font-weight: bold;
+}
