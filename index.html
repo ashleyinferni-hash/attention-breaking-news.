@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ BREAKING NEWS: Attention!</title>
+    <style>
+        body {
+            font-family: 'Arial Black', Gadget, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            background-color: #cc0000; /* Red for 'Breaking News' */
+            color: white;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            border-bottom: 5px solid black;
+        }
+        .header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+        .news-ticker {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: ticker 20s linear infinite; /* Animation for a scrolling effect */
+        }
+        .story-section {
+            background-color: white;
+            border: 2px solid black;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: left;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+        }
+        .story-section h2 {
+            color: #cc0000;
+            border-bottom: 3px double #cc0000;
+            padding-bottom: 5px;
+            font-size: 2em;
+        }
+        .breaking-points {
+            list-style: none;
+            padding: 0;
+        }
+        .breaking-points li {
+            background-color: #fffacd; /* Light yellow background */
+            border-left: 5px solid #cc0000;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1.1em;
+        }
+        .top-story h3 {
+            font-size: 1.8em;
+            color: #4b0082; /* Purple/dark color for main headline */
+        }
+        .warning {
+            color: #cc0000;
+            font-weight: bold;
+            font-style: italic;
+            border: 2px dashed #cc0000;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        /* Ticker animation keyframes (optional, for visual effect) */
+        @keyframes ticker {
+            0% { transform: translate3d(100%, 0, 0); }
+            100% { transform: translate3d(-100%, 0, 0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>🚨 ATTENTION: BREAKING NEWS 🚨</h1>
+    </div>
+
+    <div class="news-ticker">
+        THE WORLD IS GETTING WORSE! CATS ARE GONE! SKY IS PURPLE! GUM ON SHOES! NEW RESEARCH ON ANNOYANCE! COLLECTIBLE TRENDS MISSED!
+    </div>
+
+    <div class="story-section">
+        <h2>GENERAL DEGENERATION REPORT</h2>
+        <ul class="breaking-points">
+            <li>The world is getting worse, and **you are too** (Yeah, attention, Breaking news).</li>
+            <li>The cats are all gone, so is the color **blue** (Yes, attention, Breaking news).</li>
+            <li>You just got **gum stuck to both of your shoes** (Yeah, attention, Breaking news).</li>
+            <li>Over half of the time you will **always lose** (New research says).</li>
+        </ul>
+    </div>
+
+    <div class="story-section">
+        <h2>ENVIRONMENTAL & SOCIAL UPDATES</h2>
+        <p>New research says you **annoy all of your friends**.</p>
+        <p>You're behind on the latest **collectible trends**.</p>
+        <p>All the trees burned down (**there are no more trees**).</p>
+        <p>The sky is turning **purple** (and the kids are catching fleas).</p>
+    </div>
+
+    <div class="story-section top-story">
+        <h2>NOW FOR TONIGHT'S TOP STORY</h2>
+        <h3>THEME PARK TERROR STRIKES AT FREEDOM KINGDOM</h3>
+        <p>The **animatronic Abraham Lincoln** from the Presidential Log Ride has reportedly escaped the park.</p>
+        <p>Police are reporting that the android removed the rubber faces from the rest of the animatronic presidents.</p>
+        <p>And was last seen boarding a **shuttle headed off-world**.</p>
+
+        <div class="warning">
+            Officials are warning all citizens of neighboring planets: Report any suspicious activity. The android is presumed **armed and dangerous**.
+        </div>
+    </div>
+
+</body>
+</html>
